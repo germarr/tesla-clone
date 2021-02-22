@@ -1,13 +1,13 @@
 import './App.css';
 import Header from "./components/Header"
 import Item from "./components/Item"
-import Accesories from "./assets/img/Desktop-Accessories.jpeg"
-import ModelY from "./assets/img/Desktop-ModelY.jpeg"
-import ModelS from "./assets/img/ms-homepage-desktop.jpeg"
-import Model3 from "./assets/img/m3-homepage-desktop.jpeg"
-import ModelX from "./assets/img/mx-homepage-desktop.jpeg"
-import SolarPanels from "./assets/img/Desktop-SolarPanels.jpeg"
-import SolarRoof from "./assets/img/Desktop-SolarRoof.jpeg"
+import Accesories from "./img/Desktop-Accessories.jpeg"
+import ModelY from "./img/Desktop-ModelY.jpeg"
+import ModelS from "./img/ms-homepage-desktop.jpeg"
+import Model3 from "./img/m3-homepage-desktop.jpeg"
+import ModelX from "./img/mx-homepage-desktop.jpeg"
+import SolarPanels from "./img/Desktop-SolarPanels.jpeg"
+import SolarRoof from "./img/Desktop-SolarRoof.jpeg"
 
 function App() {
   return (
