@@ -1,7 +1,11 @@
 @font-face {
-  font-family: iCielMedium;
-  src: local("iCielMedium"), url("./assets/fonts/iCiel-Medium.ttf") format("tr");
+  font-family: "iCielMedium";
+  src: local("iCielMedium"), url("./fonts/iCiel-Medium.ttf") format("truetype");
   font-weight: normal;
+}
+
+* {
+  margin: 0;
 }
 
 body {

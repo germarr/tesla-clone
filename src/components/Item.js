@@ -20,24 +20,23 @@ function Item({title,desc,descLink,backgroundImg,leftBtnTxt,
                 </div>
                 <div className="item__lowerThird">
                     <div className="item__buttons">
-                        <Button
-                          img="primary" 
-                          text={leftBtnLink}
+                        <Button imp="primary" 
+                          text={leftBtnTxt}
                           link={leftBtnLink} 
                         />
                         {twoButtons && (
                             <Button 
-                                img="secondary"
-                                text={rightBtnLink}
+                                imp="secondary"
+                                text={rightBtnTxt}
                                 link={rightBtnLink}
                             />
                         )}
-                        {first && (
+                    </div>
+                    {first && (
                             <div className="item__expand">
                                 <ExpandMoreIcon/>
                             </div>
                         )}
-                    </div>
                 </div>
             </div>
         </div>
